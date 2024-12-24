@@ -243,10 +243,6 @@ ul {
   font-style: normal;
 }
 
-.footer-svg {
-  color: var(--color-brand-light);
-}
-
 .address-copyright {
   font-size: 13px;
   color: #747272;
