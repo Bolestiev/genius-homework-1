@@ -51,7 +51,7 @@
         <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
       </section>
 
-      <section class="advantages-section">
+      <section class="section" id="advantages-section">
         <h2 class="advantages-title">
           Перевтілюйтесь в <span class="accent">beauty zone!</span>
         </h2>
@@ -75,7 +75,7 @@
         </div>
       </section>
 
-      <section class="benefits-section">
+      <section class="section" id="benefits-section">
         <h2 class="benefits-title">
           Чому люди <span class="accent">обирають нас</span>
         </h2>
@@ -117,7 +117,7 @@
         </ul>
       </section>
 
-      <section class="procedures-section">
+      <section class="section" id="procedures-section">
         <h2 class="procedures-title">
           Наші <span class="accent">процедури</span>
         </h2>
@@ -138,10 +138,19 @@
             </div>
           </li>
         </ul>
+        <a href="/">
+          <img
+            class="navigation-procedure"
+            src="./images/navigation-procedure.svg"
+            alt="три крапки"
+          />
+        </a>
       </section>
 
-      <section class="location-section">
-        <h2>Як нас знайти</h2>
+      <section class="section" id="location-section">
+        <h2 class="location-title">
+          Як нас <span class="accent">знайти</span>
+        </h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4785329845026!2d30.520326599999994!3d50.4508131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50853c3c51%3A0x6703d85b0d10b524!2z0L_RgNC-0LLRg9C70L7QuiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQsCwgNSwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1735038727574!5m2!1suk!2sua"
           width="600"
@@ -152,44 +161,67 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
 
-        <h3>Запишіться безкоштовно та отримайте подарунок</h3>
-        <input type="text" placeholder="Ваше ім'я та прізвище" />
-        <input type="text" placeholder="Ваш номер телефону" />
-        <input type="text" placeholder="Ваша електронна пошта" />
+        <div class="container-location-form">
+          <h3 class="location-form-title">
+            Запишіться <span class="accent">безкоштовно</span> та отримайте
+            подарунок
+          </h3>
+          <input
+            class="location-field"
+            type="text"
+            placeholder="Ваше ім'я та прізвище"
+          />
+          <input
+            class="location-field"
+            type="text"
+            placeholder="Ваш номер телефону"
+          />
+          <input
+            class="location-field"
+            type="text"
+            placeholder="Ваша електронна пошта"
+          />
 
-        <button type="submit">Записатись безкоштовно</button>
-        <p>Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
+          <button class="location-button" type="submit">
+            Записатись безкоштовно
+          </button>
+          <p class="location-form-text">
+            Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
+          </p>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <nav>
         <a href="/">
           <img src="./images/logo-footer.svg" alt="Логотип клініки" />
         </a>
         <ul>
-          <li>Про нас</li>
-          <li>Чому ми</li>
-          <li>Наші процедури</li>
-          <li>Контакти</li>
+          <li><a class="link-footer" href="#advantages-section">Про нас</a></li>
+          <li><a class="link-footer" href="#benefits-section">Чому ми</a></li>
+          <li>
+            <a class="link-footer" href="#procedures-section">Наші процедури</a>
+          </li>
+          <li><a class="link-footer" href="#location-section">Контакти</a></li>
         </ul>
       </nav>
 
       <address>
         <ul>
           <li>
-            <a class="address-link" href="tel:+380960000007"
+            <a class="footer-address-link" href="tel:+380960000007"
               >+ 38 (096) 000 00 07</a
             >
           </li>
           <li>
-            <a class="address-link" href="mailto:beautyzone@gmail.com"
+            <a class="footer-address-link" href="mailto:beautyzone@gmail.com"
               >beautyzone@gmail.com</a
             >
           </li>
           <li>
             <a
-              class="address-link"
+              class="footer-address-link"
               href="https://maps.app.goo.gl/gM1DMYi7Mhi6iqHQ9"
               target="_blank"
               >Україна, м. Київ, вул. Тараса Шевченка 5</a
@@ -211,7 +243,7 @@
             </a>
           </li>
         </ul>
-        <a class="address-link" target="_blank" href="#"
+        <a class="footer-address-link" target="_blank" href="#"
           >Політика конфідеційності</a
         >
         <p class="address-copyright">&copy; 2022 Дані захищені</p>
