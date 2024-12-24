@@ -67,6 +67,7 @@ ul {
   font-size: 140px;
   line-height: 0.81;
   text-transform: capitalize;
+  max-width: 529px;
 }
 
 .hero-button {
@@ -77,4 +78,61 @@ ul {
   background-color: var(--color-brand-blue);
   color: var(--color-brand-light);
   cursor: pointer;
+}
+
+/* -----------Advantages section----------- */
+
+.advantages-title {
+  max-width: 529px;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.advantages-title .accent {
+  color: var(--color-brand-blue);
+  text-transform: capitalize;
+}
+
+.advantages-text {
+  font-size: 22px;
+}
+
+.advantages-text .accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* -----------------Benefits section---------------- */
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.benefits-title .accent {
+  color: var(--color-brand-blue);
+}
+
+.benefits-text {
+  line-height: 1.3;
+}
+
+/* ----------------Procedures section------------ */
+
+.procedures-title {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.procedures-title .accent {
+  color: var(--color-brand-blue);
+}
+
+.procedures-item {
+  color: var(--color-brand-light);
+  font-size: 22px;
+  line-height: 1.18;
+  text-align: center;
 }
