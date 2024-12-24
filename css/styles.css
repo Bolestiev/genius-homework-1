@@ -80,6 +80,17 @@ ul {
   cursor: pointer;
 }
 
+.hero-button:hover {
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+  border: 2px solid #2b7fff;
+}
+
+.hero-button:active {
+  background-color: var(--color-brand-blue);
+  color: var(--color-brand-light);
+}
+
 /* -----------Advantages section----------- */
 
 .advantages-title {
@@ -175,6 +186,15 @@ ul {
   height: 52px;
   font-size: 13px;
   color: var(--color-brand-light);
+  text-align: left;
+}
+
+.location-field:hover {
+  background-color: #747272;
+}
+
+.location-field:hover::placeholder {
+  color: var(--color-brand-light);
 }
 
 .location-button {
@@ -183,6 +203,16 @@ ul {
   border-radius: 32px;
   width: 281px;
   height: 53px;
+}
+
+.location-button:hover {
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+}
+
+.location-button:active {
+  background-color: var(--color-brand-blue);
+  color: var(--color-brand-light);
 }
 
 .location-form-text {
